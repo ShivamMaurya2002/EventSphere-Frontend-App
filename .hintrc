@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-mask",
+          "backdrop-filter",
+          "min-height: auto",
+          "-moz-appearance",
+          "scrollbar-width",
+          "scrollbar-width: thin",
+          "scrollbar-color"
+        ]
+      }
+    ],
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/paint": "off"
+  }
+}

@@ -126,7 +126,7 @@ export default function Home() {
               whileHover={{ scale: 1.05, rotate: 0 }}
               transition={{ duration: 0.4 }}
             >
-              <img src="/MusicConcert.jpg" alt="Music Event" />
+              <img src="/src/assets/images/MusicConcert.jpg" alt="Music Event" />
             </motion.div>
             <motion.div
               className="hero-image-card card2"
